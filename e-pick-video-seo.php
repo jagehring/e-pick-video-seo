@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: e-pick Video SEO Plugin
+Plugin Name: E Pick Video SEO Plugin
 Plugin URI: none
 Description: Video schema SEO plugin for worpdress.
 Version: 1
