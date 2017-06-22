@@ -293,89 +293,89 @@ function evs_is_edit_page($new_edit = null){
 
 
 if (($youtubematch1) || ($youtubematch2) || ($youtubematch3) || ($youtubematch4) || ($youtubematch5) || ($youtubematch6)) {
-?><div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+?><div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>Youtube video has been found from your post content.Search engine preview may be slight different from snippet preview.</b></font>
 </div>
 <?php
 include ('yotube_video_fetcher.php');
 }elseif (($metacafematch1) ||($metacafematch2) ||($metacafematch3)) { ?>
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>Metacafe video has been found from your post content.Search engine preview may be slight different from snippet preview.</b></font>
 </div>
 <?php
 include ('metacafe_video_fetcher.php');
 }elseif (($dailymotionmatch) || ($dailymotionmatch1) || ($dailymotionmatch2) || ($dailymotionmatch3)) { ?>
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>Dailymotion video has been found from your post content.Search engine preview may be slight different from snippet preview.</b></font>
 </div>
 <?php
 include ('dailymotion_video_fetcher.php');
 }elseif (($vimeomatch) || ($vimeomatch1) || ($vimeomatch3) || ($vimeomatch4)) { ?>
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>Vimeo video has been found from your post content.Search engine preview may be slight different from snippet preview.</b></font>
 </div>
 <?php
 include ('vimeo_video_fetcher.php');
 }elseif (($veohmatch1) || ($veohmatch2) || ($veohmatch3) || ($veohmatch4)) { ?>
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>Veoh video has been found from your post content.Search engine preview may be slight different from snippet preview.</b></font>
 </div>
 <?php
 include ('veoh_video_fetcher.php');
 }elseif (($screenrmatch1) || ($screenrmatch2) || ($screenrmatch3) || ($screenrmatch4) ) { ?>
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>Screenr video has been found from your post content.Search engine preview may be slight different from snippet preview.</b></font>
 </div>
 <?php
 include ('screenr_video_fetcher.php');
 }elseif (($wistiamatch1) || ($wistiamatch2) || ($wistiamatch3) || ($wistiamatch4) ) { ?>
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>Wistia video has been found from your post content.Wistia api does not provide description and rating.</b></font>
 </div> <?php
 include ('wistia_video_fetcher.php');
 }elseif (($vzaarmatch1) || ($vzaarmatch2) || ($vzaarmatch3) || ($vzaarmatch4) || ($vzaarmatch5) || ($vzaarmatch6)) {?>
-	<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+	<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>Vzaar video has been found from your post content.Vzaar api does not provide description and rating.</b></font>
 </div> <?php
 include ('vzaar_video_fetcher.php');
 }elseif (($viddlermatch1) || ($viddlermatch2) || ($viddlermatch3) || ($viddlermatch4) ) { ?>
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>Viddler video has been found from your post content.Viddler api does not provide description and rating.</b></font>
 </div>
 <?php
 include ('viddler_video_fetcher.php');
 } elseif (($bliptvmatch) || ($bliptvmatch2)) { ?>
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>blip.tv video has been found from your post content.Search engine preview may be slight different from snippet preview.</b></font>
 </div>
  <?php
 include ('bliptv_video_fetcher.php');
 } elseif (($selfmatches) || ($selfmatches1)) { ?>
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>Self hosted video <a href="<?php echo $selfvidurl; ?>"><?php echo $selfvidurl; ?></a> has been found in your post content.</b></font>
 </div> <?php
 if (!$thumbloc) { ?>
 <br />
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>Please upload your thumb by clicking on upload thumb button below.</b></font>
 </div>
 <?php
 }
 include ('self_video_fetcher.php');
 } elseif (evs_is_edit_page('new')) { ?>
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>Please Update your post once to grab video seo information. </b></font>
 </div>	<?php
 }elseif (evs_is_edit_page('edit')) {
 if ($thumbloc) {?>
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
+<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
 	<font color="black" size="02"><b>Current snippet preview reflects the inputs you entered below. No video has been found in your content. if you have changed video into content, Clear all fields and update post .</b></font>
 </div><br />
 <?php }?>
 
 
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55;  border-width: 1px; border-style: solid; width :auto; height:auto;">
-	<font color="black" size="02"><b>No video found in your content. <a href="http://phppoet.com/supported-services-by-e-pick-video-seo-plugin/">Click here</a> to view supported video provider for this plugin.If you are using other video provider service then please enter each video seo field manually. </b></font>
+<div id="videonotice" style="background-color:#e02a2a; border-color: #af1a1a;  border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
+	<font color="black" size="02"><b>No video found in your content. If you are using a non popular video provider service then please enter each video seo field manually. </b></font>
 </div>
 <?php
 }
@@ -388,8 +388,8 @@ $thumbcontents = @file_get_contents($thumbloc);
 if (!strlen($thumbcontents))
 {?>
 <br />
-<div id="videonotice" style="background-color:#ffffe0; border-color: #e6db55; border-width: 1px; border-style: solid; width :auto; height:auto;">
-	<font color="black" size="02"><b>Your entered thumbnail Url does not exist.Please enter a valid thumbnail url.</b></font>
+<div id="videonotice" style="background-color:#26d35d; border-color: #097730; border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
+	<font color="black" size="02"><b>Your entered thumbnail Url does not exist. Please enter a valid thumbnail url.</b></font>
 </div>
 <?php }
 }
@@ -464,9 +464,9 @@ include ('evs-script-loader.php');
 
    </form></table>
    <br />
-   <div id="evsupdatestatus" style="display:none; background-color:#ffffe0; border-color: #e6db55;  border-width: 1px; border-style: solid; width :auto; height:auto;">
+   <div id="evsupdatestatus" style="display:none; background-color:#26d35d; border-color: #097730;  border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
    </div> <br />
-   <div id="evsupdatestatus2" style="display:none; background-color:#ffffe0; border-color: #e6db55;  border-width: 1px; border-style: solid; width :auto; height:auto;">
+   <div id="evsupdatestatus2" style="display:none; background-color:#26d35d; border-color: #097730;  border-width: 1px; border-style: solid; width :auto; height:auto; padding:10px;">
    </div>
    </div><br/>
 
